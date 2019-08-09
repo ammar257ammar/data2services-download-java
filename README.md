@@ -20,6 +20,6 @@ docker run -it --rm -v /data:/data data2services-download-java -ds pharmgkb -dp 
 java -jar data2services-download-java-0.0.1-SNAPSHOT-jar-with-dependencies.jar \
   -ds pharmgkb \ # first col of the CSV (to ddl)
   -dp "/data/cwl-repository/input/pharmgkb/" \ # where to ddl
-  -dcsv ../datasets.csv
+  -dcsv /data/datasets.csv
 ```
 
